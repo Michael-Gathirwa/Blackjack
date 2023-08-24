@@ -10,3 +10,5 @@ else if(sum===25){
 }
 else {
   console.log("You are OUT!")
+}
+
