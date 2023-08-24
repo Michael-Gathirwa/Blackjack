@@ -12,3 +12,8 @@ else {
   console.log("You are OUT!")
 }
 
+
+let age=22
+
+if (age<21){ console.log("You can not enter the Club")
+else console.log("Welcome")
