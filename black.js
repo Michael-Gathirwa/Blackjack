@@ -17,7 +17,7 @@ let age=100
 
 if(sage<100){
     console.log("Not Eligeble")
-} else if(sage===100){
+} else if(age===100){
     console.log("Here is your birthday card from the king")
 }
 else{
