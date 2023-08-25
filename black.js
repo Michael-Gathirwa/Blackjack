@@ -13,7 +13,7 @@ else {
 }
 
 
-let sage=100
+let age=100
 
 if(sage<100){
     console.log("Not Eligeble")
