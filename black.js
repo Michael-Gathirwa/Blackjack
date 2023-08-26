@@ -5,12 +5,16 @@ let hasBlackJack = false
 let isAlive = true
 let message = ""
 
-if (sum<25){
-message="Do you Want to draw another card"
-}
-else if(sum===25){
-  message="You have your JACKS!"
-}
-else {
-  message="You are Out of the Game!"
+let messageEl = document.getElementById("message-el")
+function startGame(){
+     if (sum<25){
+     message="Do you Want to draw another card"
+     }
+     else if(sum===25){
+       message="You have your JACKS!"
+     }
+     else {
+       message="You are Out of the Game!"
+     }
+ messageEl.textContent = message
 }
