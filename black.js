@@ -7,8 +7,10 @@ let message = ""
 
 let messageEl = document.getElementById("message-el")
 let sumEl=document.getElementById("sum-el")
+let cardsEl=document.getElementById("cards-el")
 function startGame(){
  sumEl.textContent="Sum: " + sum
+ cardsEl.textContent="Cards: " +
      if (sum<25){
      message="Do you Want to draw another card"
      }
