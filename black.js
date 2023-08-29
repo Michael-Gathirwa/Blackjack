@@ -10,7 +10,7 @@ let sumEl=document.getElementById("sum-el")
 let cardsEl=document.getElementById("cards-el")
 function startGame(){
  sumEl.textContent="Sum: " + sum
- cardsEl.textContent="Cards: " +
+ cardsEl.textContent="Cards: " + firstCard + secondCard
      if (sum<25){
      message="Do you Want to draw another card"
      }
