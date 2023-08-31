@@ -41,8 +41,4 @@ let skills = [
     "Cybersecurity",
     "cctv installation",
     "Networking"
-
-
-
 ]
-console.log(secondCard)
