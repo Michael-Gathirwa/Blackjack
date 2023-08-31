@@ -1,25 +1,28 @@
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url();
+    background-image: url(bjack.jpg) ;
     background-size: cover;
     text-align: center;
-    color: white;
+    color:white;
     font-weight: bold;
 }
+
 h1{
     color: goldenrod;
 }
 
- #message-el{
+#message-el{
     font-style: italic;
-}
 
+}
 button{
-    text-color:#016f32;
+    color:#016f32;
     width: 150px;
-    background: goldenrod;
+    background:goldenrod ;
     border: none;
     font-weight: bold;
     padding-bottom: 5px;
     padding-top: 5px;
+    border-radius: 2px;
+    margin: 4px;
 }
