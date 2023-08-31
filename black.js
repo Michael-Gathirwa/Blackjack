@@ -42,3 +42,5 @@ let skills = [
     "cctv installation",
     "Networking"
 ]
+
+console.log(skills[2])
