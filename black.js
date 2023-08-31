@@ -33,3 +33,10 @@ if (sum <= 20) {
     sum += card
     renderGame()
  }
+
+
+let skills = [
+    "Programming"
+    "HTML & CSS"
+    "Cybersecurity"
+]
