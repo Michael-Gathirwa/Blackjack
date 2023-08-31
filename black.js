@@ -36,7 +36,10 @@ if (sum <= 20) {
 
 
 let skills = [
-    "Programming"
-    "HTML & CSS"
-    "Cybersecurity"
+    "Programming",
+    "HTML & CSS",
+    "Cybersecurity",
+    "cctv installation",
+    "Networking"
 ]
+console.log(skills[3])
