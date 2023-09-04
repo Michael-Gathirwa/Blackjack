@@ -43,8 +43,9 @@ let skills = [
     "Networking"
 ]
 
-console.log(skills[2])
-console.log(skills[1])
-console.log(skills[0])
-console.log(skills[3])
-console.log(skills[4])
+
+
+console.log(skills.length)
+
+skills.push("Michael")
+console.log(skills)
