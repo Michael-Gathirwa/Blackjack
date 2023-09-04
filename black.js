@@ -1,5 +1,6 @@
 let firstCard = 1
 let secondCard =8
+
 let cards=[firstCard, secondCard]
 let sum = firstCard + secondCard
 let hasBlackJack = false
@@ -31,24 +32,7 @@ if (sum <= 20) {
     console.log("Drawing a new card from the deck!")
     let card=2
     sum += card
+    cards.push(card)
     renderGame()
  }
 
-
-let skills = [
-    "Programming",
-    "HTML & CSS",
-    "Cybersecurity",
-    "cctv installation",
-    "Networking"
-]
-
-
-
-console.log(skills.length)
-
-skills.push("Michael")
-console.log(skills)
-
-skills.pop()
-console.log(skills)
