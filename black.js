@@ -49,3 +49,6 @@ console.log(skills.length)
 
 skills.push("Michael")
 console.log(skills)
+
+skills.pop()
+console.log(skills)
