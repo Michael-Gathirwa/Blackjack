@@ -14,8 +14,10 @@ let sumEl = document.getElementById("sum-el")
  }
  let cardsEl=document.getElementById("cards-el")
  function renderGame(){
-    sumEl.textContent="Sum:" + sum
     cardsEl.textContent="Cards: " + cards[0] + " " + cards[1 ]
+
+    
+    sumEl.textContent="Sum:" + sum
 if (sum <= 20) {
     message="Do you want to draw a new card? "
 } else if (sum === 21) {
@@ -35,28 +37,4 @@ if (sum <= 20) {
     cards.push(card)
     renderGame()
  }
-
- let messages = [
-    "Hey, how's it going?",        
-    "I'm great, thank you! How about you?",
-    "All good. Been working on my portfolio lately.",
-    "Same here!",
-    "Great to hear",
-    "michael",
-    "kiberenge"
- ]
-// console.log(messages[0])
-// console.log(messages[1])
-// console.log(messages[2])
-// console.log(messages[3])
-// console.log(messages[4])
-
-for(let i=0;i<messages.length;i++){
-    console.log(messages[i])
- }
-
- let x=[2,3,4,5,6]
-
-
- for (let m=0;m<x.length;m++){console.log(x[m])}
 
