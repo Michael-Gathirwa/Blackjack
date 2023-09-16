@@ -42,7 +42,8 @@ if (sum <= 20) {
     "All good. Been working on my portfolio lately.",
     "Same here!",
     "Great to hear",
-    "michael"
+    "michael",
+    "kiberenge"
  ]
 // console.log(messages[0])
 // console.log(messages[1])
