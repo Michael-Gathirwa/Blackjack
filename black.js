@@ -54,3 +54,9 @@ if (sum <= 20) {
 for(let i=0;i<messages.length;i+=1){
     console.log(messages[i])
  }
+
+ let x=[2,3,4,5,6]
+
+
+ 
+
