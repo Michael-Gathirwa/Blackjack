@@ -58,5 +58,5 @@ for(let i=0;i<messages.length;i++){
  let x=[2,3,4,5,6]
 
 
- for (let m=0;m<x.length;m+=1){console.log(x[m])}
+ for (let m=0;m<x.length;m++){console.log(x[m])}
 
