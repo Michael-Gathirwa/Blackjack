@@ -51,7 +51,7 @@ if (sum <= 20) {
 // console.log(messages[3])
 // console.log(messages[4])
 
-for(let i=0;i<messages.length;i+=1){
+for(let i=0;i<messages.length;i++){
     console.log(messages[i])
  }
 
