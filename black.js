@@ -61,3 +61,12 @@ if (sum <= 20) {
 
  let fastestRace = getFastestRaceTime()
  console.log(fastestRace)
+
+ function raceTime(){
+    let x = player1Time+player2Time
+    return x    
+   }
+    let totalRaceTime = raceTime()
+    
+    console.log(totalRaceTime)
+   
